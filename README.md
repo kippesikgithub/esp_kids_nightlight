@@ -10,3 +10,17 @@ ESP board (esp8266 or esp32 based)
 2x 3 WS2812 Leds  
 USB (micro or usb-c) for connecting to power source  
 3d Print the housing https://www.printables.com/model/625681-nightlighttoddler-clockok-to-wake-lightsleep-train  
+
+## How To create
+Print the housing from the link provided on Printables  
+Flash WLED firmware on the ESP chip of your choise, and connect it to your WIFI  
+Connect/Solder 2 strips (or 1 strip, and create segments in WLED) to your ESP chip on your favorite GPIO port  
+Place the ESP and ledstrips into the housing like on the picture below (I used ledstrip diffuser strips to create a nice surface to put double sided tape behind)  
+![image](https://github.com/kippesikgithub/esp_kids_nightlight/assets/100353268/7f787ed2-508f-4db0-bd42-5ef298da0aab)  
+Create Segments out of the upper and lower led strips, so you can controll them separately  
+Connect the usb (usb-c or micro-usb) Power on the back of the Light (into the esp)  
+![image](https://github.com/kippesikgithub/esp_kids_nightlight/assets/100353268/05f606d3-38ad-4dd0-889f-0aa93d2951a3)  
+Integrate the WLED light into your Home Assistant environment  
+Create to DateTime helpers for 'In Bedtime' and 'Out of Bedtime'  
+Create some flows in Node Red or Home Assistant Automations to turn on or off the upper of lower part of the light  
+Create a Home Assistant Card for controlling the light manually and setting the helpers for 'In Bedtime' and 'Out of Bedtime'  
