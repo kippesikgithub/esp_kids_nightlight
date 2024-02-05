@@ -11,7 +11,7 @@ ESP board (esp8266 or esp32 based)
 2x 3 WS2812 Leds  
 USB (micro or usb-c) for connecting to power source  
 3d Print the housing https://www.printables.com/model/625681-nightlighttoddler-clockok-to-wake-lightsleep-train (created by rparish_1262093, thanks!)  
-I dont use the setup that the original creater has on the printables article, since I want the ability to choose every possible color, and had some strips of ws2812b leds laying around.  
+note: I dont use the setup (internals) that the original creater has on the printables article, since I want the ability to choose every possible color, and had some strips of ws2812b leds laying around, waiting for a purpose.    
 ## How To create
 - Print the housing from the link provided on Printables  
 - Flash WLED firmware on the ESP chip of your choise, and connect it to your WIFI  
