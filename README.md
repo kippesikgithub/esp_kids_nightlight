@@ -26,6 +26,7 @@ note: I dont use the setup (internals) that the original creater has on the prin
 ![image](https://github.com/kippesikgithub/esp_kids_nightlight/assets/100353268/05f606d3-38ad-4dd0-889f-0aa93d2951a3)  
 - Integrate the WLED light into your Home Assistant environment  
 - Create to DateTime helpers for 'In Bedtime' and 'Out of Bedtime'  
+![image](https://github.com/kippesikgithub/esp_kids_nightlight/assets/100353268/9c78decf-0b78-45bb-b41a-dc2bd4d6236e)  
 - Create some flows in Node Red or Home Assistant Automations to turn on or off the upper of lower part of the light  
 - Create a Home Assistant Card for controlling the light manually and setting the helpers for 'In Bedtime' and 'Out of Bedtime'  
 ![image](https://github.com/kippesikgithub/esp_kids_nightlight/assets/100353268/3b8c5334-b40a-4f48-a857-741b47420682)  
