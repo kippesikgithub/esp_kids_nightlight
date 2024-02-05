@@ -1,5 +1,6 @@
 # ESP WLED Nightlight / Sleeptrainer
 ESP WLED driven, integrated in Home Assistant, Nightlight / Sleeptrainer, to help the toddlers when they have to be 'In bed' or when they are allowed to come 'Out of bed'.  
+Giving you or the toddler the ability to choose every light color available (even different ones for open and closed eyes), controll the light manual, and automate the light based on datetime helpers in Home Assistant.  
 ![image](https://github.com/kippesikgithub/esp_kids_nightlight/assets/100353268/b9dae179-6cb1-4d85-9185-682a2aa91dea)
 ![image](https://github.com/kippesikgithub/esp_kids_nightlight/assets/100353268/044eaf4b-2680-4f82-8fa0-32f2fb62c527)
 ![image](https://github.com/kippesikgithub/esp_kids_nightlight/assets/100353268/16167580-d81c-400a-beb6-447158b5ab55)
@@ -27,5 +28,6 @@ USB (micro or usb-c) for connecting to power source
 - Create to DateTime helpers for 'In Bedtime' and 'Out of Bedtime'  
 - Create some flows in Node Red or Home Assistant Automations to turn on or off the upper of lower part of the light  
 - Create a Home Assistant Card for controlling the light manually and setting the helpers for 'In Bedtime' and 'Out of Bedtime'  
-![image](https://github.com/kippesikgithub/esp_kids_nightlight/assets/100353268/3b8c5334-b40a-4f48-a857-741b47420682)
-
+![image](https://github.com/kippesikgithub/esp_kids_nightlight/assets/100353268/3b8c5334-b40a-4f48-a857-741b47420682)  
+Create Segments in WLED firmware
+![image](https://github.com/kippesikgithub/esp_kids_nightlight/assets/100353268/0d30ec03-53e9-48bc-a2e7-03021004e06c)
